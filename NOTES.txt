@@ -13,3 +13,5 @@ league
    |----all-games
 	   |----regular-season
 	   |----post-season
+
+new tree for each season? or use arrays within the above tree?
