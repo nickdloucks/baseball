@@ -1,0 +1,15 @@
+
+DATA TREE:
+league
+   |----conference
+   |       |----division
+   |    	   |----team
+   |    		   |----team-stats
+   |    		   |----player_(position)
+   |    			   |----player-stats
+   |    				   |----batting
+   |    				   |----fielding
+   |    				   |----(pitching)
+   |----all-games
+	   |----regular-season
+	   |----post-season
