@@ -1,0 +1,26 @@
+{
+  "name": "baseball",
+  "version": "1.0.0",
+  "description": "custom baseball sim league",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdloucks/baseball.git"
+  },
+  "keywords": [
+    "baseball"
+  ],
+  "author": "Nick, Noah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickdloucks/baseball/issues"
+  },
+  "homepage": "https://github.com/nickdloucks/baseball#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
