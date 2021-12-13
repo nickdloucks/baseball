@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/nickdloucks/baseball#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
