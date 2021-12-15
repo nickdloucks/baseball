@@ -15,3 +15,5 @@ league
 	   |----post-season
 
 new tree for each season? or use arrays within the above tree?
+
+tree above is good for a NoSQL database, could also create tables for each node above
