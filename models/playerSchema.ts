@@ -1,8 +1,10 @@
 export const playerSchema ={
     $jsonSchema: {
+        "title": "player",
         bsonType: "object",
         required: ["name", "position"],
         additionalProperties: false,
+        type: "object",
         properties: {
             _id: {},
             name: {
@@ -12,7 +14,8 @@ export const playerSchema ={
             position: {
                 bsonType: "string",
                 description: "'position' is required and is a string",
-            }
+            },
+
         }
     }
 }
