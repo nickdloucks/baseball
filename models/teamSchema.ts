@@ -1,4 +1,4 @@
-export const teamSchema ={
+export const teamSchema = {
     $jsonSchema: {
         "title": "team",
         bsonType: "object",
