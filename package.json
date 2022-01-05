@@ -1,9 +1,12 @@
 {
   "name": "baseball",
   "version": "1.0.0",
-  "description": "custom baseball sim league",
+  "description": "A custom baseball sim league",
   "main": "app.js",
   "scripts": {
+    "build": "tsc",
+    "server": "node ./dist/server/server.js",
+    "open": "start msedge http://localhost:3333",
     "test": "test"
   },
   "repository": {
@@ -26,6 +29,8 @@
     "mongodb": "^4.2.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
   }
 }
