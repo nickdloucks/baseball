@@ -28,8 +28,12 @@ export interface Player {
 }
 
 export interface PlayerStats {
-    batting: number,
-    homeruns: number,
-    rbis: number,
-    steals: number
+    batting: number, // on-base percentage: ratio against number of at-bats
+    homeruns: number, // integer
+    rbis: number, // integer
+    steals: number, // integer
+    
+    errors: number, // integer
+    era?: number // earned run average: 3 decimals: 0.000  Also, ERA is an optional stat only used for pitchers
+    record?: string //? maybe a template-literal using numbers in format win-loss-(tie) Also a pitching stat
 }
